@@ -2,3 +2,26 @@ p{
     background-color: #09f;
     color: #fff;
 }
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+}
+ul li{
+    width: 100px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: #09f;
+    color: #fff;
+}
+ul li a:hover{
+    background-color: #900;
+}
